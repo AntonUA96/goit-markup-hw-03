@@ -34,7 +34,7 @@ html {
   display: flex;
 }
 header {
-  background-color: tomato;
+  border-bottom: 1px solid #ececec;
 }
 nav {
   align-items: center;
@@ -55,7 +55,6 @@ header .container {
 }
 
 .main-hero {
-  background-color: green;
   height: 600px;
 }
 
@@ -300,8 +299,9 @@ p {
   margin-bottom: 20px;
 }
 
-.join-in-list {
-  margin-top: 20px;
+.join-in {
+  display: block;
+  margin-bottom: 20px;
 }
 
 .footer-items:not(:last-child) {
@@ -355,8 +355,20 @@ footer .container {
 }
 
 /* ПОРТФОЛИО */
+.button-list {
+  display: flex;
+  justify-content: center;
+}
 
+.nav-button {
+  padding-top: 93px;
+  padding-bottom: 50px;
+}
 /* КНОПКИ-ФИЛЬТРЫ */
+
+.button-list .item:not(:last-child) {
+  margin-right: 8px;
+}
 
 .secondary-button {
   color: var(--primary-text-color);
@@ -372,6 +384,35 @@ footer .container {
   color: var(--white-color);
   background-color: var(--hover-color);
 }
+
+/* ПРИМЕРЫ РАБОТ, ПОРТФОЛИО */
+
+.card-portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* .card-portfolio .card {
+  width: calc((100%-60px) / 3);
+} */
+
+.card-portfolio .card:not(:nth-last-child(-n + 3)) {
+  margin-bottom: 30px;
+}
+/* .card-portfolio .card:nth-last-child(-n + 3) {
+  margin-bottom: 94px;
+} */
+.portfolio-item {
+  padding-bottom: 94px;
+}
+
+.bottom-card {
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  padding: 20px 24px;
+}
 /* ЗАГОЛОВОК */
 
 .portfolio-section {
@@ -379,6 +420,7 @@ footer .container {
   font-weight: 700;
   font-size: 18px;
   line-height: 2.25;
+  margin-bottom: 4px;
 }
 
 .portfolio-description {
