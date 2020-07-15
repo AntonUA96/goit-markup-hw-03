@@ -228,7 +228,11 @@ p {
   display: flex;
   justify-content: space-between;
 }
-
+.our-team-card {
+  padding-top: 30px;
+  padding-bottom: 24px;
+  background-color: #fff;
+}
 .social-items {
   display: flex;
   justify-content: center;
@@ -239,7 +243,6 @@ p {
 }
 
 .our-team-list .card {
-  border: 1px solid black;
   width: 270 px;
   height: 422px;
 }
@@ -280,7 +283,7 @@ p {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  margin-top: 30px;
+
   margin-bottom: 10px;
 }
 
