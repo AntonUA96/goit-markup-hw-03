@@ -56,6 +56,8 @@ header .container {
 
 .main-hero {
   height: 600px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 body {
@@ -144,6 +146,7 @@ p {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin-bottom: 30px;
 }
 
 /* ГЛАВНАЯ КНОПКА */
@@ -160,6 +163,10 @@ p {
   letter-spacing: 0.06em;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
 /* О НАС */
@@ -181,6 +188,7 @@ p {
   height: 120px;
   width: 270px;
   margin-bottom: 30px;
+  padding: 25px 100px;
 }
 .title-about-us {
   margin-bottom: 10px;
@@ -215,6 +223,7 @@ p {
   line-height: 1.14;
   text-align: center;
   text-transform: uppercase;
+  padding-top: 27px;
 }
 /* НАША КОМАНДА */
 
@@ -262,7 +271,14 @@ p {
   border: 1px solid var(--our-team-background-color);
   width: 170px;
   height: 90px;
+  padding-top: 20px;
 }
+
+.partners {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* ЗАГОЛОВКИ СТРАНИЦЫ */
 
 .main-title {
@@ -379,6 +395,10 @@ footer .container {
   font-size: 16px;
   line-height: 1.63;
   text-align: center;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 22px;
+  padding-right: 22px;
 }
 
 .secondary-button:hover,
